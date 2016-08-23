@@ -2,7 +2,7 @@
 _STELLA_LINK_CURRENT_FILE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 export STELLA_ROOT=$_STELLA_LINK_CURRENT_FILE_DIR/stella
 STELLA_DEP_FLAVOUR=DEV
-STELLA_DEP_VERSION=0.0.3-81-gcc210f0
+STELLA_DEP_VERSION=0.0.3-82-gdeae90f
 [ ! "$1" == "chaining" ] && export STELLA_APP_ROOT=$_STELLA_LINK_CURRENT_FILE_DIR
 
 if [ ! "$1" == "nothing" ]; then
