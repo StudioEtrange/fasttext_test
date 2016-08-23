@@ -16,7 +16,6 @@ Download, build and test Fasttext from Facebook, on Windows, Linux or macOS.
 
 	git clone https://github.com/StudioEtrange/fasttext_test
 	cd fasttext_test
-	./do.sh fasttext install
 	./do.sh fasttext build
 
 	cd fasttext
