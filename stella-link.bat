@@ -1,9 +1,9 @@
 @if not "%~1"=="include" if not "%~1"=="chaining" if not "%~1"=="nothing" setlocal enableExtensions enableDelayedExpansion
 @set _STELLA_LINK_CURRENT_FILE_DIR=%~dp0
 @set _STELLA_LINK_CURRENT_FILE_DIR=%_STELLA_LINK_CURRENT_FILE_DIR:~0,-1%
-@set STELLA_ROOT=%_STELLA_LINK_CURRENT_FILE_DIR%\stella
+@set STELLA_ROOT=%_STELLA_LINK_CURRENT_FILE_DIR%\..\stella
 @set STELLA_DEP_FLAVOUR=DEV
-@set STELLA_DEP_VERSION=0.0.3-76-g631b094
+@set STELLA_DEP_VERSION=0.0.3-80-g0d2c613
 
 @echo off
 @if not "%~1"=="chaining" set STELLA_APP_ROOT=%_STELLA_LINK_CURRENT_FILE_DIR%
