@@ -8,8 +8,8 @@ function usage() {
 	echo "USAGE :"
 	echo "----------------"
 	echo "o-- fasttext management :"
-	echo "L     fasttext install|uninstall : deploy/undeploy this app"
 	echo "L     fasttext build [-f]"
+	echo "L     fasttext uninstall"
 
 }
 
